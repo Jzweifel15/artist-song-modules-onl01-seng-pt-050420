@@ -12,6 +12,7 @@ class Song
   @@songs = []
   
   def initialize
+    @@songs.push(self)
   end
 
   def self.all
